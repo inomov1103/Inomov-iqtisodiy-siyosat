@@ -17,4 +17,4 @@ Bu loyiha O‘zbekiston iqtisodiy va siyosiy jarayonlarini tahlil qilish, tushun
 [Saytni ko‘rish](https://inomov1103.github.io/Inomov-iqtisodiy-siyosat)
 
 ## 👤 Muallif
-Inomov1103 — GitHub orqali ochiq tahlil va ta’lim loyihalari
+Inomov — ochiq tahlil va ta’lim loyihalari
