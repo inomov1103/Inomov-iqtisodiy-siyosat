@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Iqtisodiy siyosat turlari</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <h1>Iqtisodiy siyosat turlari</h1>
+    <ul>
+      <li>Fiskal siyosat</li>
+      <li>Pul-kredit siyosati</li>
+      <li>Tashqi iqtisodiy siyosat</li>
+      <li>Ijtimoiy siyosat</li>
+      <li>Sanoat va investitsiya siyosati</li>
+    </ul>
+    <h2>Misol</h2>
+    <p>O‘zbekiston 2022-yilda xorijiy investitsiyalarni jalb qilish uchun soliq imtiyozlarini kengaytirdi.</p>
+  </main>
+
+  <div id="footer"></div>
+
+  <script>
+    fetch('navbar.html').then(res => res.text()).then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
+    fetch('footer.html').then(res => res.text()).then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+  </script>
+</body>
+</html>

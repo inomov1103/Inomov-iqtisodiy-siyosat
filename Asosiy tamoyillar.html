@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Asosiy tamoyillar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <h1>Asosiy tamoyillar</h1>
+    <ul>
+      <li>Barqarorlik — uzoq muddatli iqtisodiy o‘sishni ta’minlash</li>
+      <li>Moslashuvchanlik — iqtisodiy sharoitlarga moslashish</li>
+      <li>Adolat — ijtimoiy tenglikni saqlash</li>
+      <li>Samaradorlik — resurslardan oqilona foydalanish</li>
+    </ul>
+    <h2>Misol</h2>
+    <p>Pandemiya davrida davlat ijtimoiy yordam dasturlarini kengaytirib, adolat tamoyiliga amal qildi.</p>
+  </main>
+
+  <div id="footer"></div>
+
+  <script>
+    fetch('navbar.html').then(res => res.text()).then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
+    fetch('footer.html').then(res => res.text()).then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+  </script>
+</body>
+</html>

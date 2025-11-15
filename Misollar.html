@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="uz">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Misollar</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="navbar"></div>
+
+  <main>
+    <h1>Misollar</h1>
+    <table>
+      <tr>
+        <th>Mamlakat</th>
+        <th>Siyosat turi</th>
+        <th>Misol</th>
+      </tr>
+      <tr>
+        <td>AQSh</td>
+        <td>Fiskal</td>
+        <td>Soliqni kamaytirish orqali talabni oshirish</td>
+      </tr>
+      <tr>
+        <td>Yaponiya</td>
+        <td>Pul-kredit</td>
+        <td>Foiz stavkalarini nolga yaqinlashtirish</td>
+      </tr>
+      <tr>
+        <td>Germaniya</td>
+        <td>Sanoat</td>
+        <td>Yashil texnologiyalarga subsidiyalar</td>
+      </tr>
+    </table>
+  </main>
+
+  <div id="footer"></div>
+
+  <script>
+    fetch('navbar.html').then(res => res.text()).then(data => {
+      document.getElementById('navbar').innerHTML = data;
+    });
+    fetch('footer.html').then(res => res.text()).then(data => {
+      document.getElementById('footer').innerHTML = data;
+    });
+  </script>
+</body>
+</html>
