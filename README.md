@@ -1,4 +1,4 @@
-# Inomov Iqtisodiy Siyosat
+## Inomov Iqtisodiy Siyosat
 
 Bu loyiha O‘zbekiston iqtisodiy va siyosiy jarayonlarini tahlil qilish, tushuntirish va baham ko‘rishga qaratilgan.
 
